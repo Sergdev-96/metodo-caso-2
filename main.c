@@ -84,7 +84,7 @@ void agregarReparacion()
         printf("Introduzca precio: ");
         scanf("%s", texto);
 
-        /* Convertimos texto a numero */
+        /* convertir char a numero */
         sscanf(texto, "%f", &precio[total]);
 
         printf("Estado (0 Pendiente / 1 Finalizada): ");
